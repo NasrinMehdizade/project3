@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("./bg-intro-desktop.png");
+    background-color: #ff7878;
+    background-size: 100%;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container .left {
+    width: 50%;
+    color: white;
+    margin: 250px 150px ;
+    margin-right: 0;
+}
+.container .right {
+    width: 50%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+}
+.container .right .box1 {
+    width: 100%;
+    background-color: #5d54a3;
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 3px;
+}
+.container .right .box1 span {
+    font-weight: bold;
+    font-size: 20px;
+}
+.container .right .box2 {
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+}
+.container .right .box2 .choise1 {
+    border: 1px solid #b8b5c8;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 3px;
+}
+.container .right .box2 .choise2 {
+    border: 1px solid #b8b5c8;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 3px;
+}
+.container .right .box2 .choise3 {
+    border: 1px solid #b8b5c8;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 3px;
+}
+.container .right .box2 .choise4 {
+    border: 1px solid #b8b5c8;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 8px;
+}
+.container .right .box2 button {
+    margin: 15px;
+    background-color: #37cc8a;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 3px;
+}
+.container .right .box2 h3 {
+    margin: 15px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 10px;
+    color: #cac9cf;
+}
+.container .right .box2 h3 span {
+    color: red;
+}
+/* media */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .container .left {
+        margin: auto;
+    }
+    .container .right {
+        justify-content: center;
+        margin-right: 0;
+    }
+}
+
+
